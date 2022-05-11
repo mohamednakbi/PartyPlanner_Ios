@@ -258,7 +258,7 @@
             <objects>
                 <viewController id="WMz-CZ-xIf" customClass="ViewController" customModule="partyPlaner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f4q-9x-0HG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8cM-cz-HNd">
@@ -278,7 +278,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Party Planner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yg6-63-Ldd">
-                                <rect key="frame" x="10" y="80" width="348.5" height="43"/>
+                                <rect key="frame" x="10" y="80" width="258.5" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="FKJ-6e-AGn"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="vLw-EV-Tma"/>
@@ -454,11 +454,11 @@ T3IgU2lnbiBJbiBXaXRoEBAQEBAQA
             <objects>
                 <viewController id="GC8-sm-CHC" customClass="RecoveryPasViewController" customModule="partyPlaner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kxe-pl-JtS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qmq-YC-mRA">
-                                <rect key="frame" x="32" y="323" width="360" height="38.5"/>
+                                <rect key="frame" x="32" y="323" width="425" height="38.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="360" id="1uy-GP-i7H"/>
                                     <constraint firstAttribute="width" constant="340" id="rzV-AV-w5a"/>
@@ -467,25 +467,25 @@ T3IgU2lnbiBJbiBXaXRoEBAQEBAQA
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Recovery code Will                " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTk-qG-9h1">
-                                <rect key="frame" x="72" y="186" width="280" height="35"/>
+                                <rect key="frame" x="72" y="186" width="345" height="27"/>
                                 <fontDescription key="fontDescription" name="ReemKufi" family="Reem Kufi" pointSize="23"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="be Sent To Your Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swb-W9-xnl">
-                                <rect key="frame" x="44" y="223" width="336" height="30"/>
+                                <rect key="frame" x="44" y="223" width="401" height="30"/>
                                 <fontDescription key="fontDescription" name="ReemKufi" family="Reem Kufi" pointSize="22"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Party Planner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="838-bK-WLg">
-                                <rect key="frame" x="50" y="80" width="324" height="46"/>
+                                <rect key="frame" x="50" y="80" width="389" height="46"/>
                                 <fontDescription key="fontDescription" name="Risque-Regular" family="Risque" pointSize="39"/>
                                 <color key="textColor" red="0.61568627450000002" green="0.0078431372550000003" blue="0.01176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0tF-Jh-sQ5">
-                                <rect key="frame" x="64" y="451" width="296" height="61"/>
+                                <rect key="frame" x="64" y="451" width="361" height="61"/>
                                 <color key="backgroundColor" red="0.61568627450980395" green="0.0078431372549019607" blue="0.011764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="360" id="d5X-hh-7ZE"/>
@@ -532,7 +532,7 @@ T3IgU2lnbiBJbiBXaXRoEBAQEBAQA
             <objects>
                 <viewController id="hr0-tb-lDn" customClass="SignUpViewController" customModule="partyPlaner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vHj-Me-y3s">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94P-FD-hj8">
@@ -1035,7 +1035,7 @@ T3IgU2lnbiBJbiBXaXRoEBAQEBAQA
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xmW-G1-kaY"/>
+        <segue reference="rEa-nf-XIm"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="eye.fill" catalog="system" width="128" height="78"/>
