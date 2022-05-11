@@ -18,6 +18,9 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
         NextSignupBtn.layer.cornerRadius = 20
         NextSignupBtn.layer.masksToBounds = true
+        
+        passwordTextfiled.isSecureTextEntry = true
+
         // Do any additional setup after loading the view.
     }
     

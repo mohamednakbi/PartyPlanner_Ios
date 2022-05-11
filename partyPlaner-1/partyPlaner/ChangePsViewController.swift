@@ -16,6 +16,11 @@ class ChangePsViewController: UIViewController {
         super.viewDidLoad()
         SaveChangeBtnPs.layer.cornerRadius = 20
         SaveChangeBtnPs.layer.masksToBounds = true
+        
+        oldpasswordTextFiled.isSecureTextEntry = true
+        newpassword.isSecureTextEntry = true
+        repeatPasswordTexxtfiled.isSecureTextEntry = true
+
         // Do any additional setup after loading the view.
     }
     

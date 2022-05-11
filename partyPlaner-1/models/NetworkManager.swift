@@ -2,8 +2,6 @@
 //  NetworkManager.swift
 //  partyPlaner
 //
-//  Created by talan tunisie on 27/4/2022.
-//
 
 import Foundation
 struct WebServiceURL {

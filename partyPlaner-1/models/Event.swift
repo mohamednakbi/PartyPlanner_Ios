@@ -2,7 +2,7 @@
 //  Event.swift
 //  partyPlaner
 //
-//  Created by talan tunisie on 9/5/2022.
+//  Created by iMac on 26/4/2022.
 //
 
 import Foundation

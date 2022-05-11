@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     let signInConfig = GIDConfiguration.init(clientID: "578471318331-k8g892orlbqpc2vgo4plohn4b27e5bh4.apps.googleusercontent.com")
     var basURl = "https://https-partyplaner-onrender-com.onrender.com"
     override func viewDidLoad() {
+        passwordTextfiled.isSecureTextEntry = true
         
         
      //function
@@ -57,7 +58,7 @@ class ViewController: UIViewController {
     }
     @IBAction func BTnStarted(_ sender: Any) {
         if emailTextfiled.text == "" || passwordTextfiled.text == ""{
-            self.showAlertInvalidLogin(title: "alert", message: "champ vide")
+            self.showAlertInvalidLogin(title: "alert", message: "empty field ! ")
         }
         else {
             UserDefaults.standard.set(emailTextfiled.text, forKey: "email")
